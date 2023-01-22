@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+* {
+    font-family: 'Jua', sans-serif;
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width:320px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    margin-bottom: 10px;
+    border: 5px solid #4cc079;
+    font-size: 3.5rem;
+    margin-left: 10px;       
+}
+
+
+main {
+display: flex;
+justify-content: center;
+align-content: center;
+height: calc(100% - 100px);
+flex-flow: row nowrap;
+
+}
+
+.sidebar {
+display: flex;
+flex-flow: column nowrap;
+flex-shrink: 0;
+border: 5px solid #4cc079;
+width: 120px;
+padding: 10px;
+font-size: 1.2rem;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+
+.sidebar span {
+padding: 8px;
+}
+
+.milk {
+display: flex;
+flex: 1;
+flex-flow: row wrap;
+border: 5px solid #4cc079;
+overflow-y: scroll;
+font-size: 1.5rem;   
+}
+
+.milk div {
+width: 400px;
+height: 300px;
+background-color: #e6ffd0;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+margin: 10px;
+
+}
+
+.milk img {
+width: 150px;
+height: 200px;
+margin-bottom: 15px;
+object-fit: cover;
+}
+
